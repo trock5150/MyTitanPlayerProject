@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated Nov 28, 2012 7:52:46 PM by Hibernate Tools 3.2.1.GA -->
 <hibernate-mapping>
-  <class catalog="titan_player2" name="com.mytitanplayer.bll.Library" table="library">
+  <class catalog="titan_player" name="com.mytitanplayer.bll.Library" table="library">
     <id name="songNum" type="int">
       <column name="song_num"/>
       <generator class="assigned"/>
